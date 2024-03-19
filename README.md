@@ -4,7 +4,7 @@ GIAO DIỆN ADMIN - SERVER MYSQL - SWAGGER UI
 
 DANH SÁCH THÀNH VIÊN
 
-+ 3120410046 - Đặng Chí Bảo
++ 3120410046 - Đặng Chí Bảo (Leader)
 + 3120410337 - Trần Quốc Nam
 + 3120410412 - Nguyễn Thiên Phúc
 + 3120410030 - Nguyễn Đức Anh
