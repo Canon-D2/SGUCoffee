@@ -35,7 +35,7 @@ Thiết kế giao diện Figma cho client (Nam)
 
 	+ Trang chủ (ds sản phẩm) (bảo)
 	+ Trang chi tiết sản phẩm (nam)
-  + Trang điều khoản và dịch vụ (nam)
+  	+ Trang điều khoản và dịch vụ (nam)
 	+ Trang giỏ hàng (phúc)
 	+ Trang thanh toán (đ anh)
 	+ Trang xem hóa đơn (t anh)
