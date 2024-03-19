@@ -33,7 +33,7 @@ Thiết kế giao diện Figma cho client (Nam)
 
 // FRONDEND (bao gồm các items nhỏ trong trang chính) 
 
-0. Giao diện XML các trang (bao gồm trang con chồng nhau)
+4. Giao diện XML các trang (bao gồm trang con chồng nhau)
 	+ Trang chủ (ds sản phẩm) (bảo)
 	+ Trang chi tiết sản phẩm (nam)
   	+ Trang điều khoản và dịch vụ (nam)
