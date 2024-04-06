@@ -1,22 +1,97 @@
-ĐỒ ÁN ANDROID 2 - NHÓM 11 - APP ĐẶT COFFEE TRỰC TUYẾN
+<p align="center">
+  <img width="96" align="center" src="src/main/resources/static/img/logo.png" alt="logo">
+</p>
+  <h1 align="center">
+  SaiGon Coffee Chilling
+</h1>
+<p align="center">
+  The beverage ordering application is developed based on the Android platform.
+</p>
 
-TEMPLATE ADMIN - SERVER MYSQL - SWAGGER UI
+<p align="center">
 
-DANH SÁCH THÀNH VIÊN
+  <a style="text-decoration:none">
+    <img src="https://img.shields.io/badge/JavaJDK-17-blue.svg?color=00B16A" alt="JavaJDK 17"/>
+  </a>
 
-+ 3120410046 - Đặng Chí Bảo (Leader)
-+ 3120410337 - Trần Quốc Nam
-+ 3120410412 - Nguyễn Thiên Phúc
-+ 3120410030 - Nguyễn Đức Anh
-+ 3120410034 - Nguyễn Tuấn Anh
+  <a style="text-decoration:none">
+    <img src="https://img.shields.io/badge/Platform-Win64%20-blue?color=00B16A" alt="Platform Win64"/>
+  </a>
+</p>
 
-DANH SÁCH CHỨC NĂNG
+### ⚠️Notice: Run the web server and the app simultaneously to load the database
+## 🛠️ Installation Steps
+### 🌐 Web server
+1. Git clone the Project: 
+   ```shell
+    git clone https://github.com/Canon-D2/SGUCoffee
+    ```
+2. If Java is not in your system
+   - [Install Java JDK 17](https://www.oracle.com/java/technologies/downloads/#java17)
+3. Add the database sgucoffee.sql 
+4. Press ALT + F5 to update Maven Project
+5. Run as Spring Boot App
+   
+### 📱 Application
+1. If Java is not in your system
+   - [Install Java JDK 17](https://www.oracle.com/java/technologies/downloads/#java17)
 
-Thiết kế db, vẽ usecase chức năng admin và client (Bảo)
+2. Git clone the Project:
+   ```shell
+    git clone https://github.com/Canon-D2/SGUCoffeeApp
+    ```
+3. Fix build.gradle (Module :app)
+  - Modify the directory path in Gradle Scripts -> build.gradle (Module: app) -> the line of code 
+   ```shell
+    implementation fileTree(dir:'....', include: ['.aar', '.jar'], exclude: [])
+   ```
+ - Change the location of the current zalopay folder on your machine.
+4. Fix IPAddress in RetrofitService
+   - Open Terminal and press the following command line:
+   ```shell
+    ipconfig
+   ```
+   - Search the line "IPv4 Address"
+   - Add the new Ip Address in retrofit
+5. Run APP
+   
+--------------------------
+
+### PROJECT ANDROID 2 - APP CLIENT - TEAM 11 - APP ĐẶT COFFEE TRỰC TUYẾN
+
+#### 👨‍👨‍👦‍👦 TEAM MEMBER
+| STT | MSSV | NAME  |
+|:-------:|:------:|:-------:|
+|  1  |  3120410046  |   Đặng Chí Bảo ⭐  |
+|  2  |  3120410337  |   Trần Quốc Nam    |
+|  3  | 3120410412 | Nguyễn Thiên Phúc |
+|  4  | 3120410030 | Nguyễn Đức Anh |
+|  5  | 3120410034 | Nguyễn Tuấn Anh |
+
+-----------------------------------------------------------------------------------------------
+### LIST OF FUNCTIONS
+
+Thiết kế db, file data sql, vẽ usecase chức năng admin và client (Bảo)
 Thiết kế giao diện Figma cho client (Nam) 
 
-// BACKEND
+### ADMIN SERVER WEB SPRING BOOT
 
+0. Hibernate JPA + MySQL (Bảo + Phúc)
+1. Model: get, set thuộc tính + Đưa dữ liệu lên API Swagger (đ anh)
+2. Viết các hàm chức năng (controller)
+	+ Đăng nhập, đăng xuất admin (Nam)
+	+ Quản lý hóa đơn (xem ds, xem chi tiết, xóa, gửi mail) (phúc) 
+	+ Thống kê doanh thu (nam)
+	+ CRUD tài khoản (đ anh) 
+	+ CRUD sản phẩm (t anh) 
+	+ Chatbox hỗ trợ GPT (Bảo)
+	+ Chatbox nhóm socket (bảo)
+
+-----------------------------------------------------------------------------------------------
+
+### CLIENT APP - ANDROID 
+
+### BACKEND
 1. Retrofit: lấy dữ liệu từ API + Model: get, set các đối tượng (đ anh)
 2. Đăng nhập, đăng xuất (nam)
 3. Trang chủ:
@@ -31,7 +106,8 @@ Thiết kế giao diện Figma cho client (Nam)
 	+ Chèn quảng cáo (gg ads) (nam)
 	+ Cache lưu tạm sản phẩm khi disconnect (phúc)
 
-// FRONDEND (bao gồm các items nhỏ trong trang chính) 
+
+### FRONDEND (bao gồm các items nhỏ trong trang chính) 
 
 4. Giao diện XML các trang (bao gồm trang con chồng nhau)
 	+ Trang chủ (ds sản phẩm) (bảo)
@@ -42,4 +118,7 @@ Thiết kế giao diện Figma cho client (Nam)
 	+ Trang xem hóa đơn (t anh)
 	+ Trang tài khoản (phúc)
 	+ Trang hỗ trợ gpt (bảo)
-
+-----------------------------------------------------------------------------------------------
+<p align="center">
+  Thanks for reading me ❤️.
+</p>
